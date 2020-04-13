@@ -56,8 +56,7 @@ namespace EdgeToastBackgroundProject.Helpers
                         new ToastButton("Try Microsoft Edge", ProtocolUrl)
                         {
                             ActivationType = ToastActivationType.Protocol
-                        },
-                        new ToastButtonDismiss()
+                        }
                     }
                 }
             }.GetXml();
@@ -99,8 +98,7 @@ namespace EdgeToastBackgroundProject.Helpers
                         new ToastButton("Try Microsoft Edge", ProtocolUrl)
                         {
                             ActivationType = ToastActivationType.Protocol
-                        },
-                        new ToastButtonDismiss()
+                        }
                     }
                 }
             }.GetXml();
@@ -141,8 +139,7 @@ namespace EdgeToastBackgroundProject.Helpers
                         new ToastButton("Try Microsoft Edge", ProtocolUrl)
                         {
                             ActivationType = ToastActivationType.Protocol
-                        },
-                        new ToastButtonDismiss()
+                        }
                     }
                 }
             }.GetXml();
@@ -183,8 +180,7 @@ namespace EdgeToastBackgroundProject.Helpers
                         new ToastButton("Try Microsoft Edge", ProtocolUrl)
                         {
                             ActivationType = ToastActivationType.Protocol
-                        },
-                        new ToastButtonDismiss()
+                        }
                     }
                 }
             }.GetXml();
