@@ -1,5 +1,5 @@
 # OemToast
-OEM toast notification app for Edge and Xbox notification after first boot
+OEM toast notification app for Edge notification after first boot
 
 ## Some key points
 
@@ -18,9 +18,8 @@ When the app is compiled for **DEBUG**, it includes a SessionConnected backgroun
 1. Install both apps
 1. Sign out of the computer
 1. Sign back in
-1. [EXPECTED] A debug notification from both apps should appear, stating that the notifications have been scheduled
+1. [EXPECTED] A debug notification should appear, stating that the notification has been scheduled
 1. [EXPECTED] After 5 minutes, Edge notification should appear.
-1. [EXPECTED] After 15 minutes, Xbox notification should appear. The Xbox notification, when compiled in debug mode, is set to show the notification after 15 minutes rather than after 24 hours, simply for ease of testing.
 
 
 ## Testing with OEM image
@@ -28,4 +27,3 @@ When the app is compiled for **DEBUG**, it includes a SessionConnected backgroun
 Compile the app for **RELEASE** so that the SessionConnected background task above isn't utilized. Include the app as part of the preinstalled apps in the OS image. Set up the new computer.
 
 1. [EXPECTED] 5 minutes after the user completes OOBE, they should receive an Edge notification.
-1. [EXPECTED] 24 hours after the user completes OOBE (or whenever they turn back on their computer if they had it off at that time), they should receive an Xbox notification
