@@ -90,7 +90,9 @@ namespace EdgeToast
 
         private void SimulatePreinstall_Click(object sender, RoutedEventArgs e)
         {
-            ToastHelper.ShowToast();
+            ToastHelper.ScheduleToast();
+
+            _ = new MessageDialog("The notification has been scheduled for 5 minutes in the future.").ShowAsync();
         }
     }
 }
